@@ -1,0 +1,113 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:  1em;
+}
+
+.container{
+    width: 100vw;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(162, 236, 93);
+}
+
+.filter{
+    color: antiquewhite;
+}
+.display input{
+    padding: 1em;
+}
+
+input[type="radio"]{
+    margin: 1em;
+    color: aliceblue;
+}
+
+.Btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myContainer{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-position: center center;
+    background-color: beige;
+    background-size: cover;
+}
+.language{
+    margin: 1em;
+    color: rgb(231, 99, 66);
+}
+.display{
+    display: flex;
+    flex-direction: row;
+}
+.greetBtn{
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+    font-size: 17px;
+    border-style: none;
+    margin-right: 10px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    color: #ffff;
+    background-color: aquamarine;
+}
+
+button{
+    color: aqua;
+}
+.name-error{
+    color: red;
+    margin-bottom: 1em;
+    display: none;
+}
+.duplicate{
+    color: red;
+    margin-bottom: 1em;
+    display: none;
+}
+.language-error{
+    color: red;
+    margin-bottom: 1em;
+    display: none;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+.count{
+    font-size: 3em;
+    padding: 0.1em;
+    border: 0.1em aquamarine;
+    background-color: aqua;
+    border-radius: 0.2em;
+    margin-left: 1em;
+}/*
+.displayName{
+    padding: 1.5em;
+    background-color: rgb(44, 84, 194);
+}*/
+h1{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: aqua;
+}
+@media only screen and (max-width: 50em){
+    .container{
+        flex-direction: column;
+    }
+    .input[type="radio"]{
+        margin: 1em;
+        color: aliceblue;
+    }
+}

@@ -1,0 +1,9 @@
+<div class="actions">
+    <h1>Greeted Users</h1>
+
+    {{#each message}}
+    <ul>
+        <a href="/counter/{{this}}"><li>{{this}}</li></a>
+    </ul>
+    {{/each}}
+</div>

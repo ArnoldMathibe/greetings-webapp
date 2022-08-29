@@ -1,0 +1,42 @@
+<div class="actions">
+<h1>Greetings App</h1>
+
+<div class="message"></div>
+<div class="myContainer">
+<form action="/greet" method="post">
+{{#if messages.info}}
+    <div class="errMessage">
+        <h1>{{messages.info}}</h1>
+    </div>
+     {{/if}}
+    <div class="display">
+        <div class="input">
+
+            <input type="text" class="languageEntered" placeholder="Enter Your Name" name="name">
+        </div>
+        <div class="count">0{{count}}</div>
+    </div>
+
+    <input type="radio" name="language" class="langRadioEng" value="english"/>English
+    <input type="radio" name="language" class="langRadioTsw" value="setswana"/>Setswana
+    <input type="radio" name="language" class="langRadioXhosa" value="isiXhosa"/>IsiXhosa
+
+    <div class="filter">
+    
+    </div>
+    <div class="Btn">
+        <button class="greetBtn" type="submit" name="button">Greet Me</button>
+        <a href="/greeted">Greeted Names</a>
+    
+    </div>
+    <form action="/reset" method="POST">
+        <button class="remove greetBtn" type="submit" name="button">Remove</button>
+    </form>
+</div>
+</form>
+
+<hr/>
+<div  class="typeOfLanguage">
+        <h2>{{message}}</h2>
+    </div>
+</div>
