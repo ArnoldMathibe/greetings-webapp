@@ -5,13 +5,17 @@ body{
 
 .container{
     width: 100vw;
-    /*display: flex;*/
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: rgb(162, 236, 93);
 }
-
+.users{
+    background-color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    align-items: center;
+}
 .filter{
     color: antiquewhite;
 }
@@ -91,11 +95,7 @@ button{
     background-color: aqua;
     border-radius: 0.2em;
     margin-left: 1em;
-}/*
-.displayName{
-    padding: 1.5em;
-    background-color: rgb(44, 84, 194);
-}*/
+}
 h1{
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
