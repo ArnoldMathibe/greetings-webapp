@@ -21,6 +21,7 @@ body{
 }
 .display input{
     padding: 1em;
+    
 }
 
 input[type="radio"]{
@@ -40,8 +41,10 @@ input[type="radio"]{
     align-items: center;
     height: 100vh;
     background-position: center center;
-    background-color: beige;
+    background-color: rgba(75, 68, 60, 0.089);
     background-size: cover;
+    border: 1em;
+    border-color: black;
 }
 .language{
     margin: 1em;
@@ -61,12 +64,12 @@ input[type="radio"]{
     font-weight: 600;
     display: flex;
     justify-content: center;
-    color: #ffff;
+    color: rgb(12, 11, 11);
     background-color: aquamarine;
 }
 
 button{
-    color: aqua;
+    color: rgb(10, 12, 12);
 }
 .name-error{
     color: red;
@@ -100,7 +103,7 @@ h1{
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    color: aqua;
+    color: rgb(10, 12, 12);
 }
 @media only screen and (max-width: 50em){
     .container{
