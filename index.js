@@ -76,6 +76,8 @@ app.get("/counter/:lastName", function(req, res){
 
 app.post("/reset", function(req, res){
     greeting.resetBtn();
+console.log(greeting.resetBtn());
+
     res.redirect("/");
 })
 

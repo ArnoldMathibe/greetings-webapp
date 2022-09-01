@@ -68,6 +68,10 @@ input[type="radio"]{
     background-color: aquamarine;
 }
 
+.actions{
+    justify-content: center;
+}
+
 button{
     color: rgb(10, 12, 12);
 }
@@ -94,16 +98,23 @@ button{
 .count{
     font-size: 3em;
     padding: 0.1em;
-    border: 0.1em aquamarine;
+    border: 0.1em rgb(98, 172, 241);
     background-color: aqua;
     border-radius: 0.2em;
     margin-left: 1em;
 }
+
 h1{
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     color: rgb(10, 12, 12);
+}
+h2{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(252, 5, 5);
 }
 @media only screen and (max-width: 50em){
     .container{

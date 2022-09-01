@@ -1,6 +1,12 @@
 <div class="actions">
     <h1>Greeted Users</h1>
 
+{{!-- <ul>
+  <li><a href="/views/index.handlebars">Home</a></li>
+  <li><a class="active" href="/views/greeted.handlebars">Greeted Users</a></li>
+  <li><a href="/views/counter.handlebars">Counter Users</a></li>
+</ul> --}}
+
     {{#each message}}
     <ul>
         <a href="/counter/{{this}}"><li>{{this}}</li></a>

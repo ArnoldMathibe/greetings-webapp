@@ -1,14 +1,17 @@
-<div class="actions">
-
-
-<div class="message"></div>
 <div class="myContainer">
 <form action="/greet" method="post">
 
 <h1>Greetings App</h1>
+
+{{!-- <ul>
+  <li><a class="active" href="/views/index.handlebars">Home</a></li>
+  <li><a href="/views/greeted.handlebars">Greeted Users</a></li>
+  <li><a href="/views/counter.handlebars">Counter Users</a></li>
+</ul> --}}
+
 {{#if messages.info}}
     <div class="errMessage">
-        <h1>{{messages.info}}</h1>
+        <h2>{{messages.info}}</h2>
     </div>
      {{/if}}
     <div class="display">
@@ -22,7 +25,7 @@
     <hr/>
     
     <div  class="typeOfLanguage">
-        <h2>{{message}}</h2>
+        <h1>{{message}}</h1>
     </div>
 
     <hr/>
@@ -36,16 +39,13 @@
     </div>
     <div class="Btn">
         <button class="greetBtn" type="submit" name="button">Greet Me</button>
-        <form action="/reset" method="POST">
-        <button class="remove greetBtn" type="submit" name="button">Remove</button>
-    </form>
-        <a href="/greeted">Greeted Names</a>
+        
+       <div class="users"> <a href="/greeted">Greeted Names</a> </div>
     
     </div>
-    
+    </form>
+    <form action="/reset" method="POST">
+            <button class="remove greetBtn" type="submit" name="button">Remove</button>
+        </form>
 </div>
-</form>
 
-
-
-</div>
